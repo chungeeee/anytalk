@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+a {text-decoration: none; color:#333;}
+ul li {list-style:none; }
+
+/* 공통 */
+.fl {float:left; }
+.tc {text-align:center; }
+
+/* 게시판 목록 */
+#open_area {width: 900px;  margin: 0 auto; position: relative; }
+.list-table thead th{ height:40px; border-top:2px solid #09C; border-bottom:1px solid #CCC; font:bold 17px 'malgun gothic','Sans-Serif','arial';  }
+.list-table tbody td{ text-align:center; padding:10px 0; border-bottom:1px solid #CCC; height:20px; font: 14px 'malgun gothic','Sans-Serif','arial';}
+#movie_btn {position: absolute; margin-top:5px; left: 300px;}
+#free_btn {position: absolute; margin-top:5px; right: 110px;}
+#streaming_btn {position: relative; margin-top:5px; left: 50px;}
+
+.re_ct {font-weight:bold; color:blue;}
+.fo_re {font-weight: bold; color:red;}
+#page_num {position: absolute; left: 260px; margin-top:20px; font-size: 14px; }
+#page_num ul li {float: left; margin-left: 10px; }
+
+/* 게시판 글쓰기 */
+#board_write {width:900px; position:relative; margin:0 auto; }
+#write_area {margin-top:70px; font:14px 'malgun gothic','Sans-Serif','arial'; }
+#in_title {margin-top:30px; }
+#in_title textarea {font:bold 26px 'malgun gothic','Sans-Serif','arial'; color:#333; width: 900px; border:none; resize: none; }
+#wi_line {border:solid 1px lightgray; margin-top:10px;  }
+#in_content {margin-top:10px; }
+#in_content textarea {font:14px 'malgun gothic','Sans-Serif','arial'; color:#333; width: 900px; height: 400px; resize: none;}
+#in_pw input {font:14px 'malgun gothic','Sans-Serif','arial'; margin-top:10px; }
+#in_lock {margin-top:10px;}
+.bt_se {margin-top:20px; text-align:center;}
+.bt_se button {width:100px; height:30px; }
+
+/* 게시판 read */
+#board_read {width:900px; font-family:'malgun gothic','Sans-Serif','arial'; margin: 0 auto;  position: relative; word-break:break-all; }
+#user_info {font-size:14px;}
+#user_info ul li {float:left; margin-left:10px; }
+#bo_line {width:880px; height:2px; background: gray; margin-top:20px;}
+#bo_content {margin-top:20px; }
+#bo_ser {font:14px 'malgun gothic','Sans-Serif','arial'; color:#333;  position: absolute; right: 0; }
+#bo_ser > ul > li {float:left; margin-left:10px;}
+#dap_edit {display:block; border: solid 1px red; }
+
+/* 튜토리얼 */
+#container .main_visual{
+	position: relative;
+	overflow: hidden; //가운데 정렬과 삐져나오지 않음
+	padding-bottom: 56.25%; //4:3 영상이면 75%
+}
+#container .main_visual video {
+min-width:100%;
+min-height:100% // 꽉 차게 보여줌
+position: absolute;
+left:50%;
+top:50%
+transform:translate(-50%, -50%);
+}
+/* 웹캠*/
+#container {
+    margin: 0px auto;
+    width: 700px;
+    height: 200px;
+    border: 10px #333 solid;
+}
+
+
+#videoElement {
+    width: 700px;
+    height: 200px;
+    background-color: #666;
+}

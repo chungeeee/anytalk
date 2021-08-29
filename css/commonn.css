@@ -1,0 +1,40 @@
+
+@charset "utf-8";
+
+body {background: blanchedalmond;}
+section {padding: 10px;}
+table {border-collapse:collapse; padding: 10px; margin: 10px;}
+
+* {margin: 0 auto; padding:0; }
+a {text-decoration: none; color: #333; }
+ul li {list-style: none; }
+
+#login_box {width:500px; height:200px; border:solid 1px gray; }
+#main_t {margin-left:10px; color:gray;}
+#log_ta {margin-top:20px; }
+.mem a:hover {color:red; }
+#btn {margin-left:50px; width:90px; height:55px; background: skyblue; border:solid 1px skyblue; }
+.inph {height:24px; }
+
+#videoElement {
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+  }
+  h2{color :darkblue;}
+  #menubar ul {
+    background: cornflowerblue;
+    margin : 0;
+    padding : 0;
+    width : 100%;
+  }
+  #menubar ul li {
+    display : inline-block;
+    list-style-type : none;
+    padding : 0px 15px;
+  }
+  #menubar ul li a {
+    text-decoration : none;
+    color : white;
+  }
+  #menubar ul li a:hover {
+    color : violet;
